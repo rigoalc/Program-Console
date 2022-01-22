@@ -1,10 +1,6 @@
 
 # KVCC 
 # CIS-226-23199
-# Advanced Python Programming
-from programconsole import program_console
-from programconsole import totlinematch
-
-
+from programconsole import counter
 def test_program_console():
-    assert 1 == totlinematch
+    assert 1 == counter
