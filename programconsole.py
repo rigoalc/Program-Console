@@ -1,3 +1,7 @@
+
+# KVCC 
+# CIS-226-23199
+# Advanced Python Programming
 import sys
 def program_console(searchtext, filename):
     try:
@@ -14,6 +18,8 @@ if __name__ == '__main__':
         program_console(sys.argv[1],sys.argv[2])
     else:
         print("Error: Missing Arguments")
+EXPECTED = ["animals.txt", "The duck goes quack"]
+
     
     
 
