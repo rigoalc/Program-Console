@@ -3,21 +3,21 @@
 # CIS-226-23199
 # Advanced Python Programming
 import sys
-def program_console(searchtext, filename):
-    try:
-        f = open(filename)
-    except IOError:
-        print("Error: Cant't open the file")
-        return
-    print(filename)
-    for line in f:
-        if searchtext in line:
-            print(line)
-if __name__ == '__main__':
-    if len(sys.argv) == 3:
-        program_console(sys.argv[1],sys.argv[2])
-    else:
-        print("Error: Missing Arguments")
+def program_console(searchtext, filename):#create function
+    try:#attemp to open the file
+        f = open(filename)#open the file and assign to "f"
+    except IOError:#in Out error
+        print("Error: Cant't open the file")#output the error
+        return#return to end
+    print(filename)#output
+    for line in f:#read lines in file open
+        if searchtext in line:#search input in lines
+            print(line)#output if searchtext is in lines
+if __name__ == '__main__':#compare name and file of the first argument input
+    if len(sys.argv) == 3:#requires 3 arguments as input
+        program_console(sys.argv[1],sys.argv[2])#assign arguments 
+    else:#with not enough arguments 
+        print("Error: Missing Arguments")#output
 
 
     
