@@ -18,7 +18,7 @@ if __name__ == '__main__':
         program_console(sys.argv[1],sys.argv[2])
     else:
         print("Error: Missing Arguments")
-EXPECTED = ["animals.txt", "The duck goes quack"]
+
 
     
     
