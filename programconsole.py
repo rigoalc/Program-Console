@@ -22,7 +22,11 @@ if __name__ == '__main__':#compare name and file of the first argument input
     else:#with not enough arguments 
         print("Error: Missing Arguments")#output
 
-      
+# The total development time was 10 Hrs.add()
+
+# The program console open a file, read the file, and print aou the lines that contain the given search. 
+# The program console include a test for check the processing of the results. 
+# This program will run from the terminal executing the comand "python programconsole.py duck animals.txt"      
 
         
 
